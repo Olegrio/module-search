@@ -1,0 +1,124 @@
+.tourCard{
+    margin-top:10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.664);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    height: auto;
+    z-index: 125;
+    background:#ffffff6e;
+  
+}
+
+.TourCrad__img{
+    background-size: cover;
+    width:300px;
+    height: 130px;
+    margin-top: 12px;
+    margin-left: -5px;
+    float:left;
+}
+
+#searchResult{
+   
+    
+    
+}
+.tourData {
+   
+    float:left;
+    margin-top:1%;
+    color: black;
+   
+}
+
+.tourData li {
+    list-style-type: none;
+    
+}
+
+.topCard{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    font-family: 'Notable', sans-serif;
+    border-radius: 10px;
+    color: black ;
+    font-size:50px;
+    height:auto;
+    text-align:center;
+    background:  #f8f9fac7;
+}
+
+.addResult{
+    text-align:center;
+    height:100px;
+    padding:30px;
+    
+}
+ .tourCard_right{
+    float:right;
+    width:300px;
+    height: 130px;
+    margin-top: 12px;
+    margin-left: -5px;
+    text-align:center;
+    padding:20px;
+    background: #f8f9fad9;
+    border-left: 1px solid black;
+    line-height: 4px;
+
+    }
+    
+.tourCard_right p{
+        font-size: 25px;
+      }
+.look{
+
+        background-color: #ffc107eb !important;
+        border: none;
+        border-radius: 18px !important;
+
+    }
+.look:hover{
+      
+background-color: orange !important;
+
+}
+    
+
+
+
+.tourCard li{
+    margin-bottom:none;
+}
+
+.tourData_hotelName{
+
+    font-size: 20px;
+    font-family: 'Prosto One', cursive;
+}
+.tourData_lookHotel{
+
+padding: 2px 5px;
+color: #25a1d6;
+
+
+}
+
+
+.tourData_hotelStars{
+ color: goldenrod;
+ font-size: 20px;
+
+}
+@media (max-width: 600px) {
+    .tourCard_right{
+        border:none;}
+        .topCard{
+            display:none;
+        }
+    #tour0{
+        margin-top:200px;
+    }
+}
+
+
